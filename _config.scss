@@ -11,3 +11,19 @@ $magenta-background-color: #d2b;
 $magenta-background-color-dark: #a38;
 $circle-color: #e4c;
 $circle-color-dark: #b4a;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
