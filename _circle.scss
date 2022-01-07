@@ -1,0 +1,12 @@
+.circle {
+  position: absolute;
+  z-index: 1;
+  right: 3vmin;
+  background: #000;
+  background-image: linear-gradient(to left, $circle-color, $circle-color-dark);
+  border: 1vmin solid $circle-color-dark;
+  width: 33.3vmin;
+  height: 33.3vmin;
+  border-radius: 50%;
+  margin: 1rem;
+}
