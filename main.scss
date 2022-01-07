@@ -1,0 +1,18 @@
+@import "config";
+
+.canvas {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: $angularization-background-color;
+  background-image: linear-gradient(
+    to left bottom,
+    $angularization-background-color,
+    $angularization-background-color-dark,
+    $yellow-background-color-dark,
+    $yellow-background-color,
+    $magenta-background-color,
+    $magenta-background-color-dark
+  );
+  @import "triangle";
+}
