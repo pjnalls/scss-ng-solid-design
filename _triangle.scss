@@ -1,0 +1,11 @@
+.triangle {
+  position: absolute;
+  z-index: 1;
+  background: #000;
+  background-image: linear-gradient(to right top, #000, #ccc, #fff);
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  border-bottom: 3vmin solid #000;
+  width: 40vmin;
+  height: 40vmin;
+  transform: rotate(90deg);
+}
