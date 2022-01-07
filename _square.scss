@@ -1,0 +1,11 @@
+.square {
+  position: absolute;
+  z-index: 1;
+  left: calc(50% - 17.5vmin);
+  background: #000;
+  background-image: linear-gradient(to left, $square-color, $square-color-dark);
+  border: 1vmin solid $square-color-dark;
+  width: 33.3vmin;
+  height: 33.3vmin;
+  margin: 1rem;
+}
