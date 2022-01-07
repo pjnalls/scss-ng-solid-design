@@ -1,0 +1,24 @@
+.canvas {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #121fa1;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#121fa1), color-stop(#091080), color-stop(#a83), color-stop(#db2), color-stop(#d2b), to(#a38));
+  background-image: linear-gradient(to left bottom, #121fa1, #091080, #a83, #db2, #d2b, #a38);
+}
+
+.canvas .triangle {
+  position: absolute;
+  z-index: 1;
+  background: #000;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#000), color-stop(#ccc), to(#fff));
+  background-image: linear-gradient(to right top, #000, #ccc, #fff);
+  -webkit-clip-path: polygon(50% 0, 100% 100%, 0 100%);
+          clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  border-bottom: 3vmin solid #000;
+  width: 40vmin;
+  height: 40vmin;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+/*# sourceMappingURL=main.css.map */

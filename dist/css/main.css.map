@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAC;EACN,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,UAAU,ECNsB,OAAO;EDOvC,gBAAgB,EAAE,yEAQjB;CAEF;;AAfD,AEFA,OFEO,CEFP,SAAS,CAAC;EACR,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,IAAI;EAChB,gBAAgB,EAAE,+CAA+C;EACjE,SAAS,EAAE,iCAAiC;EAC5C,aAAa,EAAE,gBAAgB;EAC/B,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;EACd,SAAS,EAAE,aAAa;CACzB",
+    "sources": [
+        "../../main.scss",
+        "../../_config.scss",
+        "../../_triangle.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
