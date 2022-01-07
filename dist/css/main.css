@@ -1,24 +1,69 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .canvas {
   position: relative;
   width: 100vw;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #121fa1;
-  background-image: -webkit-gradient(linear, right top, left bottom, from(#121fa1), color-stop(#091080), color-stop(#a83), color-stop(#db2), color-stop(#d2b), to(#a38));
-  background-image: linear-gradient(to left bottom, #121fa1, #091080, #a83, #db2, #d2b, #a38);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#121fa1), color-stop(#091080), color-stop(#a83), color-stop(#db2), color-stop(#d2b), to(#a38));
+  background-image: linear-gradient(to right bottom, #121fa1, #091080, #a83, #db2, #d2b, #a38);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.canvas .triangle {
+.canvas .overlay {
   position: absolute;
-  z-index: 1;
-  background: #000;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#000), color-stop(#ccc), to(#fff));
-  background-image: linear-gradient(to right top, #000, #ccc, #fff);
-  -webkit-clip-path: polygon(50% 0, 100% 100%, 0 100%);
-          clip-path: polygon(50% 0, 100% 100%, 0 100%);
-  border-bottom: 3vmin solid #000;
-  width: 40vmin;
-  height: 40vmin;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  background: #091080;
+  opacity: 33.3%;
+}
+
+.canvas .a {
+  position: absolute;
+  left: 5rem;
+  z-index: 2;
+  font-size: 12.5rem;
+  font-weight: 700;
+  color: #feb;
+  text-shadow: 0.333rem 0.333rem 0 #121fa1;
+}
+
+.canvas .solid {
+  position: absolute;
+  z-index: 2;
+  font-size: 7.5rem;
+  font-weight: 700;
+  right: 5rem;
+  color: #edd;
+  text-shadow: 0.333rem 0.333rem 0 #a38;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */
